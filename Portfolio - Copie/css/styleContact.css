@@ -1,0 +1,86 @@
+/* Contact Section */
+body {
+    background-color: #10131B;
+}
+
+
+header li {
+    list-style: none;
+}
+
+header li a {
+    
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#contact {
+    background-color: #191c25;
+}
+
+.contact-info h3 {
+    color: #4DA8D4;
+}
+
+.contact-info ul {
+    padding: 0;
+    list-style: none;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.contact-info a {
+    color: #4DA8D4;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Formulaire de contact */
+form label {
+    color: white;
+}
+
+form .form-control {
+    background-color: #282C34;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form .form-control:focus {
+    border: 1px solid #4DA8D4;
+    box-shadow: none;
+}
+
+form button.btn {
+    background-color: #4DA8D4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+form button.btn:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+#Pdpmoi {
+    width: 40%;
+    padding-bottom: 2rem;
+}
+
+#underline {
+    text-decoration: underline; 
+    
+}

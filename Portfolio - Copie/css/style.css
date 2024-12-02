@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #10131B;
+    color: #fff;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+header li:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+}
+
+.btn {
+    background-color: #4DA8D4; 
+    color: white; 
+    padding: 10px 20px;
+    border: 2px solid #4DA8D4; 
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: all 0.3s ease; 
+    transform: scale(1); 
+}
+
+/* Effet au survol */
+.btn:hover {
+    background-color: white; 
+    color: black; 
+    transform: scale(1.1); 
+    border: 2px solid #4DA8D4; 
+}
+
+.hero {
+    position: relative;
+    background-color: #191c25; 
+    padding: 0rem 5rem ;
+    text-align: left;
+    overflow: hidden; 
+}
+
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero .highlight {
+    color: #4DA8D4;
+}
+
+.hero img {
+    width: 40%;
+    border-radius: 15px;
+    display: block;
+    margin-bottom: -5px; 
+}
+/* Skills Section */
+#skills {
+    background-color: #10131B;
+    padding: 5rem 0;
+    margin-top: -5px;
+}
+
+#skills .icon {
+    width: 80px;
+    height: 80px;
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #191c25;
+}
+
+.work {
+    background: #282C34;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.work h3 {
+    color: #4DA8D4;
+}
+
+.work p {
+    color: #C3C3C3;
+}
+
+.pad-top5 {
+    padding-top: 5rem;
+}
